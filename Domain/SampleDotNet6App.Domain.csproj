@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>SampleDotNet6App.Domain</RootNamespace>
+    <AssemblyName>SampleDotNet6App.Domain</AssemblyName>
+  </PropertyGroup>
+
+</Project>

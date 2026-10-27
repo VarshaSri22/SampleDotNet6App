@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Root configuration file for the multi-module repository. This replaces
+    a .sln file: it produces no output of its own, and instead references
+    every module so the whole repo can be restored/built in one pass.
+  -->
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <IsPackable>false</IsPackable>
+    <EnableDefaultItems>false</EnableDefaultItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="Domain\SampleDotNet6App.Domain.csproj" />
+    <ProjectReference Include="Data\SampleDotNet6App.Data.csproj" />
+    <ProjectReference Include="Services\SampleDotNet6App.Services.csproj" />
+    <ProjectReference Include="Api\SampleDotNet6App.Api.csproj" />
+  </ItemGroup>
+
+</Project>

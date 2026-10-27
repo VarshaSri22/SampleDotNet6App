@@ -1,0 +1,17 @@
+<Project>
+
+  <!--
+    Shared settings inherited by every module in this repository.
+    Individual module .csproj files do not need to repeat any of this.
+  -->
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>10.0</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Company>Trianz</Company>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+</Project>
